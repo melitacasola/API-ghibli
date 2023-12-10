@@ -1,0 +1,14 @@
+.Navbar__title {
+    background-color: rgb(24, 142, 142);
+    color: white;
+    padding: 0.50rem 0;
+    text-align: center;
+}
+
+.Navbar__title h5 {
+    font-weight: 400;
+}
+
+.Navbar__image img {
+    width: 50%;
+}
