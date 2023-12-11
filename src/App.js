@@ -1,8 +1,6 @@
 
 import { NavBar } from './components/NavBar/NavBar.jsx'
 import Card from './components/Card/Card.js';
-
-
 import './App.css';
 
 function App() {
@@ -11,8 +9,6 @@ function App() {
     <div className="App">
       <NavBar />
       <Card />
-
-
     </div>
   );
 }

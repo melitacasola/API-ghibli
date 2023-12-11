@@ -1,4 +1,5 @@
 import './index.css';
+import { Link } from 'react-router-dom';
 import logo from '../../assets/totoro.png'
 const NavBar = () => {
     return (
@@ -6,7 +7,9 @@ const NavBar = () => {
             <div className='Navbar__title'>
                 <h5>STUDIO GHIBLI FILMS</h5>
             </div>
-            <picture className='Navbar__image'> <img src={logo} /></picture>
+            <Link to="/">
+                <picture className='Navbar__image'> <img src={logo} /></picture>
+            </Link>
         </div>
     )
 

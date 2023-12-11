@@ -7,8 +7,14 @@
 
 .Navbar__title h5 {
     font-weight: 400;
+    font-size: 1rem;
+}
+
+.Navbar__image {
+    display: flex;
+    justify-content: center;
 }
 
 .Navbar__image img {
-    width: 50%;
+    width: 40%;
 }
