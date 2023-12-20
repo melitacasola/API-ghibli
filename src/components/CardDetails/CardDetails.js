@@ -2,6 +2,7 @@ import './index.css'
 import { useParams } from "react-router-dom"
 import useFetch from "../useFetch"
 import { NavBar } from '../NavBar/NavBar'
+
 const CardDetails = () => {
     const { id } = useParams()
     const urlDetail = `https://ghibliapi.vercel.app/films/${id}`
