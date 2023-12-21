@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import useFetch from "../useFetch"
 import "./index.css"
 // import { Link } from "react-router-dom"
@@ -12,9 +13,9 @@ export default function Card() {
         {
           data?.map((film) => (
             <li key={film.id} >
-              <div className="Card" style={{ backgroundImage: `url(${film.image})` }} >
+              <Link to={`detail/${film.id}`} className="Card" style={{ backgroundImage: `url(${film.image})` }} >
                 <h3 className="Card__title">{film.title}  <span>{film.release_date}</span></h3>
-              </div>
+              </Link>
             </li>
           ))
         }
