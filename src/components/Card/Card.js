@@ -1,6 +1,6 @@
 import useFetch from "../useFetch"
 import "./index.css"
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
 export default function Card() {
 
   const { data } = useFetch("https://ghibliapi.vercel.app/films/")

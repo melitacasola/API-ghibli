@@ -1,4 +1,3 @@
-
 import { NavBar } from './components/NavBar/NavBar.jsx'
 import Card from './components/Card/Card.js';
 import './App.css';

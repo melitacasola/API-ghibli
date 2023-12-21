@@ -7,9 +7,9 @@ const NavBar = () => {
             <div className='Navbar__title'>
                 <h5>STUDIO GHIBLI FILMS</h5>
             </div>
-            <Link to="/">
+            <div >
                 <picture className='Navbar__image'> <img src={logo} /></picture>
-            </Link>
+            </div>
         </div>
     )
 
